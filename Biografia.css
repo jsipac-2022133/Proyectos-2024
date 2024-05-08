@@ -1,0 +1,154 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    text-decoration: none;
+    font-family:'Concert One';
+    background-color: #efefef;
+}
+
+#general{
+    background-color: white;
+}
+
+.portada{
+    margin-top: 0;
+    width: 100%;
+    height: 15rem;;    
+    position: relative;
+    overflow: hidden;
+}
+
+.imgPerfil{
+    width: 12rem;
+    height: 12rem;    
+    border-radius: 100px;
+    margin-left: 3%;
+    bottom: 0px;
+    position: absolute;    
+    margin: 50px solid white;
+}
+
+#general{
+    width: 1200px;
+    border: 1px solid #ccc;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(53, 165, 230, 0.615);
+    color: white;
+    text-align: center;
+    line-height: 3;
+    margin-bottom: -20px;
+}
+
+#menu{
+    background-color: #eee;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 15px;
+    border-right: 1px solid #ccc;    
+    margin-left: -6px;
+}
+
+#menu ul li a{
+    color: #444;
+}
+
+#menu ul li:hover{    
+    background-color: rgba(53, 165, 230, 0.615);
+    cursor: pointer; 
+}
+    
+
+#menu ul li:hover a{    
+    color: white;
+}
+
+#contenido{
+    width: 40%;
+    float: left;
+    background-color: white;
+}
+
+.portada{
+    background-color: black
+}
+
+#lateral{
+    width: 59.6%;
+    float: left;
+    min-height: 500px;
+    max-height: 1000px;
+    text-align: center;
+    overflow-y: hidden;   
+    border-left: 1px solid black; 
+}
+
+.texto{
+    padding: 20px;
+    background-color: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#contenido h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-shadow: 3px 8px 5px #7c7c7c;    
+    background-color: white;
+}
+
+#contenido .caja {
+    background-color: gray;
+    height: 150px;
+    width: 35%;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 8;
+    box-shadow: 8px 3px 8px black;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+footer{
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    height: 60px;
+    line-height: 4;
+    border-top: 1px solid #ccc;
+}
+
+.texto{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

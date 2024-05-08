@@ -1,0 +1,665 @@
+@font-face {
+    font-family: 'GlossAndBloom';
+    src: url(fonts/Gloss_And_Bloom.ttf) format('truetype');;
+}
+
+* {
+    margin: 0;
+    font-family: 'Concert One';
+    font-size: 20px;
+}
+
+.menu {
+    width: 1000%;
+    height: 80px;
+    background-color: #14243c;
+    color: #c88a1f;
+    display: flex;
+    padding-left: 150px;
+}
+
+.logoKinal {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.bi {
+    margin-right: 10%;
+}
+
+/* 
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    line-height: 5;
+    padding-right: 50px;
+}
+
+.li1:hover{
+    color: #1a3a67;    
+} */
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate-reverse ease;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 105%;
+}
+
+.slider-frame {
+    margin-bottom: -10px;
+    height: 50vh;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+/*   .slider-frame ::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 10%;
+  } */
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    20% {
+        margin-left: 0;
+        opacity: 1;
+    }
+
+    25% {
+        margin-left: -100%;
+        opacity: 0;
+    }
+
+    45% {
+        margin-left: -100%;
+        opacity: 1;
+    }
+
+    50% {
+        margin-left: -200%;
+        opacity: 0;
+    }
+
+    70% {
+        margin-left: -200%;
+        opacity: 1;
+    }
+
+    75% {
+        margin-left: -300%;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: -300%;
+        opacity: 1;
+    }
+}
+
+
+.info {
+    margin-top: -250px;
+    padding-top: 550px;
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+}
+
+.slogan {
+    text-align: center;
+    font-family: 'GlossAndBloom';
+    color: #14243c;
+    font-size: 30px;
+}
+
+.parrafo {
+    padding: 0 100px 0 100px;
+    text-align: center;
+    color: #14243c;
+}
+
+.texto-donacion h1{
+    font-size: 30px;
+}
+
+.beneficiados h1{
+    font-size: 30px;
+}
+
+.interior h1{
+    font-size: 30px;
+}
+
+.universitario h1{
+    font-size: 30px;
+}
+
+.negocio h1{
+    font-size: 30px;
+}
+
+.socios h1{
+    font-size: 30px;
+}
+
+.informacion1 {
+    display: flex;
+    color: #14243c;
+}
+
+.basico,
+.diver,
+.mayores,
+.negocio,
+.universitario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+}
+
+.btnInfo {
+    text-decoration: none;
+    color: #14243c;
+    padding: 20px;
+}
+
+.btnInfo:hover {
+    color: #c88a1f;
+    background-color: #14243c;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.informacion2 {
+    display: flex;
+    background-color: white;
+    color: #14243c;
+}
+
+.informacion2 h1{
+    color: #14243c;
+}
+
+.imgSobre {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+.socios {
+    padding-top: 15%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 0;
+    transform: (45deg);
+    transform-origin: top right;    
+}
+
+.socios h1{
+    color: #14243c;
+}
+
+.socios-img {
+    display: flex;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover,
+.img7:hover,
+.img8:hover,
+.img9:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.socios-img img {
+    margin: 15px;
+}
+
+.socios h1 {
+    text-align: center;
+}
+
+.donacion {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    background-color: #14243c;
+}
+
+.texto-donacion {
+    padding: 50px;
+}
+
+.texto-donacion h1 {
+    color: #c88a1f;
+    text-align: center;
+}
+
+.texto-donacion p {
+    color: white;
+    text-align: center;
+}
+
+.texto-donacion a {
+    text-decoration: none;
+    color: #14243c;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.texto-donacion a:hover {
+    color: #14243c;
+    background-color: #c88a1f;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.donacion img {
+    border-radius: 50px;
+    width: 400px;
+}
+
+.donacion {
+    text-align: center;
+}
+
+
+.contenedor {
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+
+.blog {
+    position: relative;
+    align-content: center;
+    align-items: center;
+    background-color: #14243c;
+    margin-top: -100px;
+}
+
+.interior {
+    margin: 7%;
+}
+
+.interior h1 {
+    color: white;
+}
+
+.mayor,
+.basicos,
+.diversificado,
+.total,
+.patronato-kinal1,
+.patronato-kinal2,
+.patronato-kinal3,
+.patronato-kinal4 {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 6%;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.texto-superpuesto-blog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.beneficiados {
+    background-color: #14243c;
+}
+
+.beneficiados h1 {
+    text-align: center;
+    color: white;
+}
+
+.blog img {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.texto-superpuesto-blog {
+    color: #14243c;
+}
+
+.texto-superpuesto-blog:hover {
+    color: #c88a1f;
+    background-color: #14243c;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.blog h1 {
+    text-align: center;
+}
+
+.final {
+    display: flex;
+    background-color: #14243c;
+    margin-top: -100px;
+    padding-top: 50px;
+    color: white;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.final div {
+    padding-left: 12%;    
+}
+
+.contactos {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.ubicacion {
+    text-align: right;
+    padding-right: 14%;
+}
+
+
+
+body {
+    background-color: #14243c;
+}
+
+.wrapper {
+    top: 50%;
+    left: 100%;
+    width: 600px;
+    margin-left: 250px;
+    display: flex;
+    padding-right: 5%;
+}
+
+.wrapper ul {
+    list-style: none;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.wrapper ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #d8e2dc;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.wrapper ul li .fa {
+    color: #d8e2dc;
+    transition: all 0.5s ease;
+    text-align: left;
+}
+
+.wrapper ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    color: white;
+    margin-left: 50px;
+}
+
+.copyright {
+    line-height: 5;
+    margin-left: 100px;
+    width: 600px;
+    text-align: right;    
+}
+
+.copyright p{
+    font-size: 15px;
+}
+
+.wrapper {
+    margin-right: 50px;
+    text-align: left;
+}
+
+.wrapper li:hover {
+    background-color: transparent;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14243c;
+    height: 80px;
+}
+
+
+.cont-ul {
+    right: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    position: absolute;
+}
+
+.s1:hover,
+.s2:hover,
+.s3:hover,
+.s4:hover,
+.s5:hover,
+.s6:hover {
+    font-size: 22px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.develop li:hover {
+    background-color: #c88a1f;
+}
+
+.ul-second {
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+    z-index: 1;
+}
+
+.ul-second>li {
+    border-bottom: solid 1px white;
+    text-align: center;
+    background-color: #14243c;
+    padding: 20px;
+    width: 190px;
+    transform: translateX(-20px);
+    padding: 20px;
+}
+
+.ul-second>li:hover {
+    background-color: #c88a1f;
+    font-size: 25px;
+}
+
+.develop:hover>.ul-second {
+    display: block;
+}
+
+.ul-third {
+    position: absolute;
+    right: 0;
+    top: 0%;
+    transform: translateY(121px);
+    display: none;
+    background-color: #24252a;
+}
+
+.ul-third>li {
+    padding: 20px;
+    border-bottom: solid 1px white;
+}
+
+.front:hover>.ul-third {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.galeria {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+h1 {
+    color: #333;
+}
+
+.fotos1, .fotos2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fotos1 img {
+    transform: rotate(5deg);
+}
+
+.fotos2 img {
+    transform: rotate(-5deg);
+}
+
+.fotos1 img,
+.fotos2 img {
+    height: 350px;
+    margin: 0 10px;
+}
+
+.galeria h1{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.final h1{
+    color: white;
+}
