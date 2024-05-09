@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Lenguaje espaniol -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <a href="Contactos.html"><=Regresar</a>
+    <div class="div-titulo">
+        <h1>Lista De Pendientes</h1>
+    </div>
+
+    <div class="contenedor">
+        <div class="div-formulario">
+            <h2>AÑADE UNA TAREA</h2>
+            <!-- Esto es para agregar -->
+            <form action="#" id="formulario">
+                <input type="text" id="tarea" placeholder="Agrega una tarea">
+                <select id="prioridad">
+                    <option value="" selected>-- Selecciona la prioridad --</option>
+                    <option value="A Urgente">Urgente</option>
+                    <option value="B Muy importante">Muy importante</option>
+                    <option value="C Importante">Importante</option>
+                    <option value="D Hay tiempo">Hay tiempo</option>
+                </select>
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+        <!-- Esto es para listar -->
+        <div class="div-listado">
+            <!-- <h2>Listado de empleados</h2> -->
+            <div class="div-tareas">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="ToDoList.js"></script>
+</body>
+</html>
