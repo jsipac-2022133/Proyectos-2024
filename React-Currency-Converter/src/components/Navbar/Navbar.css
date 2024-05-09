@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: skyblue;
+    color: white;
+    padding: 1em 3em;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    width: 5em;
+    height: auto;
+}
